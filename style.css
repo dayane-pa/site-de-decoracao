@@ -1,0 +1,144 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Merienda&display=swap');
+
+
+
+:root{
+    --cor1: #D991A4;
+    --cor2: #F2C4D0;
+    --cor3: #F2F2F2;
+    --cor4: #737373;
+    --cor5: #E2D0E1;
+    --font1: 'Merienda', cursive;
+    --font2: arial, helvetica, sans-serif;
+}
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    height: 100vh;
+    background-color: #e2d0e1ac;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#header{
+    width:100%;
+    max-height: 90px;
+    background-color: #e2d0e1;
+    position: fixed ;
+}
+
+header{
+    max-height: 80%;
+    width: 100%;
+    background-image: linear-gradient(to top, var(--cor1),var(--cor2), #e2d0e1ac,#e2d0e14f);
+    text-align: center;  
+}
+
+header h1{
+    padding: 5px;
+    font-family: var(--font1);
+    font-size: 50px;
+    display: flex;
+} 
+
+
+nav {
+    text-align: left;
+    padding-bottom: 7px;
+    padding-top: 7px; 
+    background-color: #D991A4;
+    width: 100%;
+    
+}
+
+nav a{
+    text-decoration: none;
+    color: #5f5c5c;
+    font-family: var(--font1);
+    font-weight: bolder;
+    font-size: 20px;
+    padding-right: 10px;
+    padding-left: 7px;
+    border-radius: 20px;  
+}
+nav a:hover{
+    font-size: 20px;
+    border-radius: 20px;
+    box-shadow:inset 3px 3px 15px 4px var(--cor3);
+}
+main{
+    height: 100%;
+    padding-top: 100px;
+    max-height: 60%;
+}
+.main{
+    background-color: transparent;
+    max-width: 320px;
+    position: relative;
+}
+.destaques{
+    max-width: 300px;
+    height: 50vh;
+    padding-top: 50px;
+    margin-top: 50px;
+    background-color: #be6a808e;
+    border-radius: 7px ;
+    box-shadow: 1px 1px 4px 1px black;
+    
+}
+.destaques h1{
+    margin-top: -50px;
+    padding: 10px;
+    background-color: #D991A4;
+    border-radius: 7px 7px 0px 0px;
+}
+.destaques article{
+    margin-top: 20px;
+    
+}
+.destaques  a{
+    text-decoration: none;
+    color:white;
+    text-transform: uppercase;
+    border: 1px solid black;
+    background-color: #3933337d;
+    margin-top: 9px;
+    padding: 10px 2px 7px 14px;
+    position: absolute;
+    width: 43vw;
+    
+
+
+}
+ .destaques a:hover{
+    font-size: 27px;
+    text-decoration: none;
+    color: #b78d8d;
+   background-color: #410d0d0c;
+   padding-left: 14px ;
+   padding-bottom: 8px;
+   margin-right: 0px;
+   width: 45vw;
+   box-shadow: 1px 1px 4px 1px black;
+   
+  
+}
+
+
+
+
+
+
+   
+
+
+
+
+
+
+
